@@ -22,9 +22,7 @@ _start:
         mov ecx, 9;filas
 vertical:
         push ecx
-        cmp ecx, 0
-        jz salir
-        jmp horizontal
+        
 horizontal:
         push ecx
         imprimir asterisco
