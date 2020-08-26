@@ -7,7 +7,7 @@
 %endmacro
 
 segment .data
-	msj1 db "Ingresa datos en el archivo", 10
+	msj1 db "---Ingresa datos en el archivo---", 10,10
 	len_msj1 equ $-msj1
 
 	archivo db "/home/jhander/sexto/ensamblador/archivo.txt"
